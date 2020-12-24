@@ -1,0 +1,48 @@
+.figure {
+  position: relative;
+  width: 1000px;
+  height: 1000px;
+  background-color: royalblue;
+}
+
+.sqare__small {
+  position: absolute;
+  background-color: brown;
+  width: 200px;
+  height: 200px;
+  bottom: 40%;
+  left: 40%;
+}
+
+.sqare__big {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  background-color: chartreuse;
+  left: 30%;
+  top: 30%;
+}
+
+.bottom__cirle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: saddlebrown;
+  bottom: 20%;
+  left: 20%;
+}
+
+.bottom__cirle:hover {
+  background-color: slateblue;
+  z-index: 10;
+}
+
+.sqare__big:hover {
+  background-color: tomato;
+  z-index: 15;
+}
+
+.sqare__small:hover {
+  background-color: teal;
+  z-index: 20;
+}
